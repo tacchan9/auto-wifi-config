@@ -15,6 +15,7 @@ exit if ssid == ""
 
 case ssid
 
+# abcde is ssid
 when /abcde/i
     puts 'manual'
      `/usr/sbin/networksetup -setmanual Wi-Fi 192.168.1.2 255.255.255.0 192.168.1.1`
